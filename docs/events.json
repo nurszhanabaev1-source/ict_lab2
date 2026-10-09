@@ -1,0 +1,6 @@
+[
+  {"id": 1, "ip": "192.168.1.10", "status": 200, "endpoint": "/index.html"},
+  {"id": 2, "ip": "192.168.1.15", "status": 404, "endpoint": "/notfound"},
+  {"id": 3, "ip": "192.168.1.10", "status": 404, "endpoint": "/about"},
+  {"id": 4, "ip": "192.168.1.20", "status": 500, "endpoint": "/api/data"}
+]
