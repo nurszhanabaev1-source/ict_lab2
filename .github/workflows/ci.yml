@@ -1,3 +1,4 @@
+
 name: ShellCheck
 
 on: [push, pull_request]
@@ -8,4 +9,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Run ShellCheck
-        uses: bewest/shellcheck-action@v2
+        uses: ludeeus/action-shellcheck@master
