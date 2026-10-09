@@ -1,1 +1,2 @@
-echo "bad command without quotes"
+#!/bin/bash
+echo "Backup complete"
