@@ -15,3 +15,4 @@ echo "[$(date)] Backup created: $FILENAME" >> "$LOG_FILE"
 
 # Удаление архивов старше 7 дней
 find "$BACKUP_DIR" -name "docs_*.tar.gz" -mtime +7 -delete
+bad command without quotes
